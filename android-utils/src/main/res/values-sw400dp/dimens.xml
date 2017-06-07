@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h1">33.299988sp</dimen>
+    <dimen name="h2">30.0sp</dimen>
+    <dimen name="h3">26.699982sp</dimen>
+    <dimen name="h4">23.399994sp</dimen>
+    <dimen name="h5">20.099976sp</dimen>
+    <dimen name="h6">16.799988sp</dimen>
+    <dimen name="p">13.5sp</dimen>
+    <dimen name="small">10.199982sp</dimen>
+    <dimen name="span0.1">2.0dip</dimen>
+    <dimen name="span0.2">4.02dp</dimen>
+    <dimen name="span0.25">4.0dip</dimen>
+    <dimen name="span0.5">8.0dip</dimen>
+    <dimen name="span1">20.0dip</dimen>
+    <dimen name="span2">40.0dip</dimen>
+    <dimen name="span3">60.0dip</dimen>
+    <dimen name="span4">80.0dip</dimen>
+    <dimen name="span5">100.0dip</dimen>
+    <dimen name="span6">120.0dip</dimen>
+    <dimen name="span7">140.0dip</dimen>
+    <dimen name="span8">160.0dip</dimen>
+    <dimen name="span9">180.0dip</dimen>
+    <dimen name="span10">200.0dip</dimen>
+    <dimen name="span11">220.0dip</dimen>
+    <dimen name="span12">240.0dip</dimen>
+    <dimen name="span13">260.0dip</dimen>
+    <dimen name="span14">280.0dip</dimen>
+    <dimen name="span15">300.0dip</dimen>
+    <dimen name="span16">320.0dip</dimen>
+    <dimen name="span17">340.0dip</dimen>
+    <dimen name="span18">360.0dip</dimen>
+    <dimen name="span19">380.0dip</dimen>
+    <dimen name="span20">400.0dip</dimen>
+</resources>

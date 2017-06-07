@@ -1,0 +1,123 @@
+apply plugin: 'com.android.library'
+
+def _bintrayRepo = "maven"
+def _bintrayName = "android-utils"
+def _publishedGroupId = "com.github.seyyedmojtaba72"
+def _libraryName = "AndroidUtils"
+def _artifact = _bintrayName
+def _libraryDescription = "Some useful android utilities including widgets, snippets and ..."
+
+def _siteUrl = 'https://github.com/seyyedmojtaba72/AndroidUtils'      // Homepage URL of the library
+def _gitUrl = 'https://github.com/seyyedmojtaba72/AndroidUtils.git'   // Git repository URL
+
+def _libraryVersion = "1.1.6"
+def _libraryVersionCode = 7
+
+def _developerId = "seyyedmojtaba72"
+def _developerName = "SeyyedMojtaba Akramzade"
+def _developerEmail = "akramzade72@gmail.com"
+def _licenseName = 'The Apache Software License, Version 2.0'
+def _licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+def _allLicenses = ["Apache-2.0"]
+
+///////
+
+def _PUBLISH_GROUP_ID = _publishedGroupId
+def _PUBLISH_ARTIFACT_ID = _bintrayName
+def _PUBLISH_VERSION = _libraryVersion
+
+////////
+
+def _versionName = _libraryVersion
+def _versionCode = _libraryVersionCode
+
+///////////
+
+ext {
+    bintrayRepo = _bintrayRepo
+    bintrayName = _bintrayName
+
+    publishedGroupId = _publishedGroupId
+    libraryName = _libraryName
+    artifact = _artifact
+
+    libraryDescription = _libraryDescription
+
+    siteUrl = _siteUrl
+    gitUrl = _gitUrl
+
+    libraryVersion = _libraryVersion
+
+    developerId = _developerId
+    developerName = _developerName
+    developerEmail = _developerEmail
+
+    licenseName = _licenseName
+    licenseUrl = _licenseUrl
+    allLicenses = _allLicenses
+
+    //////
+
+    PUBLISH_GROUP_ID = _PUBLISH_GROUP_ID
+    PUBLISH_ARTIFACT_ID = _PUBLISH_ARTIFACT_ID
+    PUBLISH_VERSION = _PUBLISH_VERSION
+}
+
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode _versionCode
+        versionName _versionName
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false // IMPORTANT
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies{
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile 'com.android.support:support-annotations:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //testCompile 'junit:junit:4.12'
+}
+
+
+/*task makeJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('build/outputs/')
+    include('classes.jar')
+    rename('classes.jar', 'com.developars.utils-android.jar')
+    into('release/') //you can change this directory where you want to copy your .jar
+}
+
+task clearJar(type: Delete) {
+    delete 'build/libs/com.developars.utils-android.jar'
+}*/
+
+
+apply from: 'installv1.gradle'
+apply from: 'bintrayv1.gradle'
+
+///////
+
+//apply from: 'android-release-aar.gradle'

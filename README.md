@@ -1,0 +1,3 @@
+Some useful android utilities including widgets, snippets and ...
+
+Creator: SeyyedMojtaba Akramzade (akramzade72@gmail.com)
