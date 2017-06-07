@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.developars.utils.android" >
+    package="com.github.seyyedmojtaba72.android_utils">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
