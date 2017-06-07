@@ -10,81 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9540ebe1-8dc5-48cd-a741-b6767c79cdda" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Animations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Blur.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/DownloadManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/EmojiMapUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Fetcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FontUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Functions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/JSONParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PersianDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Transitions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/AbstractDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/CalendarUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/CivilDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/DateConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/DayOutOfRangeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/IslamicDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/MonthOutOfRangeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/PersianDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/YearOutOfRangeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/enitity/EventEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoHeightViewPager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurActionBarDrawerToggle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurAndDimView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/JustifiedTextViewPlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/NonScrollGridView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/NonScrollListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RoundedCornerLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/SquareImageView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/WrappedWebView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Animations.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Blur.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/DownloadManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/EmojiMapUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Fetcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/FontUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Functions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/JSONParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/PersianDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Transitions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/AbstractDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/CalendarUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/CivilDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/DateConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/DayOutOfRangeException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/IslamicDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/MonthOutOfRangeException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/PersianDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/YearOutOfRangeException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/calendar/enitity/EventEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/AutoHeightViewPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/BlurActionBarDrawerToggle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/BlurAndDimView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/ButtonPlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/EditTextPlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/JustifiedTextViewPlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/NonScrollGridView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/NonScrollListView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/RadioButtonPlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/RoundedCornerLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/SquareImageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/TextInputLayoutPlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/TextViewPlus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/widget/WrappedWebView.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_3_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/android-utils.iml" afterPath="$PROJECT_DIR$/android-utils/android-utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/build.gradle" afterPath="$PROJECT_DIR$/android-utils/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android-utils/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/res/layout/custom_snackbar.xml" afterPath="$PROJECT_DIR$/android-utils/src/main/res/layout/custom_snackbar.xml" />
     </list>
     <ignored path="DeveloparsUtils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,16 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DateConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/DateConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditTextPlus.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditTextPlus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -156,13 +89,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DayOutOfRangeException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/DayOutOfRangeException.java">
+      <file leaf-file-name="custom_snackbar.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/res/layout/custom_snackbar.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -209,7 +145,7 @@
       <file leaf-file-name="BlurAndDimView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurAndDimView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="1020">
               <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -221,7 +157,7 @@
       <file leaf-file-name="Functions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Functions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
+            <state relative-caret-position="33915">
               <caret line="2378" column="15" selection-start-line="2378" selection-start-column="15" selection-end-line="2378" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -2229,7 +2165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android/src/main/java/com/developars/utils/widget/WrappedWebView.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/developars/utils/Animations.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/developars/utils/widget/JustifiedTextViewPlus.java" />
         <option value="$PROJECT_DIR$/local.properties" />
@@ -2280,6 +2215,7 @@
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Functions.java" />
         <option value="$PROJECT_DIR$/android-utils/build.gradle" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/res/layout/custom_snackbar.xml" />
       </list>
     </option>
   </component>
@@ -2365,11 +2301,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane />
       </pane>
       <pane id="AndroidView">
@@ -2393,9 +2328,42 @@
               <option name="myItemId" value="android-utils" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2795,7 +2763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496858093182</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="first commit">
+      <created>1496870522355</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1496870522355</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2812,15 +2787,16 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32754344" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35359803" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35359803" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35359803" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2829,8 +2805,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2932,7 +2908,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/build.gradle" />
     <entry file="file://$PROJECT_DIR$/android/android-release-aar.gradle" />
     <entry file="file://$PROJECT_DIR$/android/installv1.gradle" />
     <entry file="file://$PROJECT_DIR$/android/bintrayv1.gradle" />
@@ -2959,7 +2934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2967,7 +2941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2975,7 +2948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2998,21 +2970,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Animations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android-utils/Animations.java" />
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Animations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3020,9 +2982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3030,9 +2989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3040,9 +2996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3050,9 +3003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3060,9 +3010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3070,9 +3017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3080,9 +3024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3090,9 +3031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3100,19 +3038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3130,9 +3055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3140,9 +3062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3160,7 +3079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3168,7 +3086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3196,9 +3113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3206,9 +3120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3216,7 +3127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3224,7 +3134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3232,9 +3141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="38" column="79" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3242,7 +3148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3250,13 +3155,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="240">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
@@ -3304,7 +3208,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurAndDimView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="1020">
           <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3314,7 +3218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="33915">
           <caret line="2378" column="15" selection-start-line="2378" selection-start-column="15" selection-end-line="2378" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3338,6 +3242,27 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/res/layout/custom_snackbar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
