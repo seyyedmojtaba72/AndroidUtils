@@ -11,7 +11,7 @@ import com.github.seyyedmojtaba72.android_utils.R;
 
 
 public class ButtonPlus extends Button {
-    final String TAG = "ButtonPlus";
+    private static final String TAG = ButtonPlus.class.getSimpleName();
 
     public ButtonPlus(Context paramContext) {
         super(paramContext);

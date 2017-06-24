@@ -8,6 +8,7 @@ import android.content.Context;
 import android.widget.ImageView;
 
 public class SquareImageView extends ImageView {
+    private static final String TAG = SquareImageView.class.getSimpleName();
 
     public SquareImageView(Context context) {
         super(context);

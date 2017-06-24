@@ -11,7 +11,7 @@ import com.github.seyyedmojtaba72.android_utils.R;
 
 
 public class EditTextPlus extends EditText {
-    final String TAG = "EditTextPlus";
+    private static final String TAG = EditTextPlus.class.getSimpleName();
 
     public EditTextPlus(Context paramContext) {
         super(paramContext);

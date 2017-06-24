@@ -21,8 +21,7 @@ import java.lang.reflect.Field;
  */
 
 public class TextInputLayoutPlus extends TextInputLayout {
-
-    final String TAG = "TextInputLayoutPlus";
+    private static final String TAG = TextInputLayoutPlus.class.getSimpleName();
 
     private Context context;
     private String font = "";

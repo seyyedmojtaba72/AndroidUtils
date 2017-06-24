@@ -8,12 +8,12 @@ import android.util.AttributeSet;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 
-import com.github.seyyedmojtaba72.android_utils.Functions;
+import com.github.seyyedmojtaba72.android_utils.OtherUtils;
 import com.github.seyyedmojtaba72.android_utils.R;
 
 
 public class JustifiedTextViewPlus extends WebView {
-    final String TAG = "JustifiedTextViewPlus";
+    private static final String TAG = JustifiedTextViewPlus.class.getSimpleName();
 
 
     private String core = "<html><body style='text-align:justify;color:rgba(%s);font-size:%fpx;margin:0; padding:0;'>%s</body></html>";
@@ -34,7 +34,7 @@ public class JustifiedTextViewPlus extends WebView {
     private void loadAttributes(Context context, AttributeSet paramAttributeSet) {
         TypedArray localTypedArray = context.obtainStyledAttributes(
                 paramAttributeSet, R.styleable.Custom_Widget_Attributes);
-        textSize = Functions.getDpFromPx(context, localTypedArray.getDimensionPixelSize(R.styleable.Custom_Widget_Attributes_textSize, 12));
+        textSize = OtherUtils.getDpFromPx(context, localTypedArray.getDimensionPixelSize(R.styleable.Custom_Widget_Attributes_textSize, 12));
         text = localTypedArray.getString(R.styleable.Custom_Widget_Attributes_text);
         int hex = localTypedArray.getColor(R.styleable.Custom_Widget_Attributes_textColor, Color.BLACK);
         String h = Integer.toHexString(hex);

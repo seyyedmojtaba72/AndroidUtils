@@ -17,12 +17,14 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.Charset;
 
 public class Fetcher {
-    private static String TAG = "Fetcher";
+    private static final String TAG = Fetcher.class.getSimpleName();
 
     public static String FetchAsset(Context context, String address) {
 
@@ -219,4 +221,39 @@ public class Fetcher {
     }
 
 
+    public static int getURLSize(String urlAddress, String apiAddress) {
+        try {
+            if (apiAddress != null) {
+                int i = Integer.parseInt(Fetcher.FetchURL(apiAddress));
+                return i;
+            } else {
+                URL url = new URL(urlAddress);
+                URLConnection urlConnection = url.openConnection();
+                urlConnection.connect();
+                int file_size = urlConnection.getContentLength();
+                return file_size;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
+
+    public static long getURLLastModified(String urlAddress) {
+
+        HttpURLConnection localHttpURLConnection;
+        HttpURLConnection.setFollowRedirects(false);
+        try {
+            localHttpURLConnection = (HttpURLConnection) new URL(urlAddress).openConnection();
+            return localHttpURLConnection.getLastModified();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return -1;
+    }
+
+    public static String URLEncode(String urlAddress) {
+        return URLEncoder.encode(urlAddress);
+    }
 }

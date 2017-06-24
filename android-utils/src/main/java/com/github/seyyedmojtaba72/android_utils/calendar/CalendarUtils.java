@@ -5,7 +5,6 @@ import android.support.annotation.RawRes;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.github.seyyedmojtaba72.android_utils.Functions;
 import com.github.seyyedmojtaba72.android_utils.R;
 import com.github.seyyedmojtaba72.android_utils.calendar.enitity.EventEntity;
 
@@ -18,13 +17,15 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import static com.github.seyyedmojtaba72.android_utils.ResourceManager.readRawResource;
+
 /**
  * Created by SeyyedMojtaba on 3/28/2017.
  */
 
 public class CalendarUtils {
 
-    public static String TAG = CalendarUtils.class.getSimpleName();
+    private static final String TAG = CalendarUtils.class.getSimpleName();
 
     private static String[] persianMonths;
     private static String[] islamicMonths;
@@ -35,7 +36,7 @@ public class CalendarUtils {
     private static void loadEvents(Context context) {
         List<EventEntity> events = new ArrayList<>();
         try {
-            JSONArray days = new JSONObject(Functions.readRawResource(context, R.raw.events)).getJSONArray("events");
+            JSONArray days = new JSONObject(readRawResource(context, R.raw.calendar_events)).getJSONArray("calendar_events");
 
             int length = days.length();
             for (int i = 0; i < length; ++i) {
@@ -90,7 +91,7 @@ public class CalendarUtils {
     }
 
     public static void loadLanguageResource(Context context) {
-        @RawRes int messagesFile = R.raw.messages_fa;
+        @RawRes int messagesFile = R.raw.calendar_messages_fa;
 
         persianMonths = new String[12];
         islamicMonths = new String[12];
@@ -98,7 +99,7 @@ public class CalendarUtils {
         weekDays = new String[7];
 
         try {
-            JSONObject messages = new JSONObject(Functions.readRawResource(context, messagesFile));
+            JSONObject messages = new JSONObject(readRawResource(context, messagesFile));
 
             JSONArray persianMonthsArray = messages.getJSONArray("PersianCalendarMonths");
             for (int i = 0; i < 12; ++i)

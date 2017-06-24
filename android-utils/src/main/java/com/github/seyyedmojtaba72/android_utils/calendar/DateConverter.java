@@ -9,7 +9,7 @@ package com.github.seyyedmojtaba72.android_utils.calendar;
  */
 
 /*
- * Functions in this class are translated from a VB code I sometime found
+ * OtherUtils in this class are translated from a VB code I sometime found
  * somewhere in the internet. I can't remember where it was. Anyway I thank
  * him/her greatly!
  */

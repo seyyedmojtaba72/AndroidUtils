@@ -11,14 +11,13 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.github.seyyedmojtaba72.android_utils.R;
-
 
 /**
  * Created by SeyyedMojtaba on 10/9/2016.
  */
 
 public class BlurActionBarDrawerToggle extends ActionBarDrawerToggle {
+    private static final String TAG = BlurActionBarDrawerToggle.class.getSimpleName();
 
     private static final int DOWNSAMPLING = 8;
 
@@ -31,7 +30,7 @@ public class BlurActionBarDrawerToggle extends ActionBarDrawerToggle {
         super(activity, drawerLayout, toolbar, openDrawerContentDescRes, closeDrawerContentDescRes);
 
         //this should be roughly the same color as your window background
-        imageBackgroundDrawable = new ColorDrawable(activity.getResources().getColor(R.color.dark_blue));
+        imageBackgroundDrawable = new ColorDrawable(activity.getResources().getColor(android.R.color.holo_blue_dark));
         this.drawerLayout = drawerLayout;
         this.blurrer = blurrer;
     }

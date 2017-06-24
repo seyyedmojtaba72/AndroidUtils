@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.GridView;
 
 public class NonScrollGridView extends GridView {
+    private static final String TAG = NonScrollGridView.class.getSimpleName();
 
     public NonScrollGridView(Context context) {
         super(context);

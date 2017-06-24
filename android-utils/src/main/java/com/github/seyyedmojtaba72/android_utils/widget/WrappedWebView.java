@@ -11,6 +11,8 @@ import com.github.seyyedmojtaba72.android_utils.R;
 
 
 public class WrappedWebView extends WebView {
+    private static final String TAG = WrappedWebView.class.getSimpleName();
+
     private int backgroundColor = 0;
     private String html = "";
 

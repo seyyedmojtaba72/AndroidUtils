@@ -12,7 +12,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class DownloadManager {
-    private static final String TAG = "DownloadManager";
+    private static final String TAG = DownloadManager.class.getSimpleName();
 
     public interface OnEventListener {
         void onProgressUpdate(int progress);

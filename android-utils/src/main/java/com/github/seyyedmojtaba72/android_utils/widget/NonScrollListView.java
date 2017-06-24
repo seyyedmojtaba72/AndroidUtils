@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 public class NonScrollListView extends ListView {
+    private static final String TAG = NonScrollListView.class.getSimpleName();
 
     public NonScrollListView(Context context) {
         super(context);

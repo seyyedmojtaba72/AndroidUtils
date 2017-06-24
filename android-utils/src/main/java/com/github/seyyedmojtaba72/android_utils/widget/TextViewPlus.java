@@ -11,7 +11,7 @@ import com.github.seyyedmojtaba72.android_utils.R;
 
 
 public class TextViewPlus extends TextView {
-    final String TAG = "TextViewPlus";
+    private static final String TAG = TextViewPlus.class.getSimpleName();
 
     public TextViewPlus(Context paramContext) {
         super(paramContext);

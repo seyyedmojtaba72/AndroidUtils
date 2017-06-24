@@ -8,8 +8,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.github.seyyedmojtaba72.android_utils.Blur;
-import com.github.seyyedmojtaba72.android_utils.R;
+import com.github.seyyedmojtaba72.android_utils.widget.util.Blur;
 
 
 /**
@@ -17,6 +16,7 @@ import com.github.seyyedmojtaba72.android_utils.R;
  */
 
 public class BlurAndDimView extends View {
+    private static final String TAG = BlurAndDimView.class.getSimpleName();
 
     private static final int BLUR_RADIUS = 4;
     private static final int BLUE_ALPHA = 178;
@@ -50,7 +50,7 @@ public class BlurAndDimView extends View {
         dimPaint = new Paint();
         blueSemiTransparentPaint = new Paint();
         //You might want to also have a semitransparent overlay over your blurred image, since you can't control what's behind your menu.
-        blueSemiTransparentPaint.setColor(getResources().getColor(R.color.dark_blue));
+        blueSemiTransparentPaint.setColor(getResources().getColor(android.R.color.holo_blue_dark));
         blueSemiTransparentPaint.setAlpha(BLUE_ALPHA);
     }
 

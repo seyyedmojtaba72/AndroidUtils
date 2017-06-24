@@ -10,6 +10,8 @@ import android.view.View;
  */
 
 public class AutoHeightViewPager extends ViewPager {
+    private static final String TAG = AutoHeightViewPager.class.getSimpleName();
+
     private int width = 0, height = 0;
 
     public AutoHeightViewPager(Context context) {

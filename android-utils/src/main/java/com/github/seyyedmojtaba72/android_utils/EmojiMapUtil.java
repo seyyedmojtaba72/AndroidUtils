@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 
 
 public final class EmojiMapUtil {
+    private static final String TAG = EmojiMapUtil.class.getSimpleName();
 
     private static final Pattern COLON_REGEX = Pattern.compile(":[a-z0-9+_-]{1,31}:");
     private static final Map<String, String> UNICODE_TO_CHEAT_SHEET = new HashMap<String, String>();

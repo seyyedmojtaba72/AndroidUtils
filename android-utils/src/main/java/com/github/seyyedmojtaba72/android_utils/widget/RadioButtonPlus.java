@@ -10,7 +10,7 @@ import com.github.seyyedmojtaba72.android_utils.R;
 
 
 public class RadioButtonPlus extends RadioButton {
-    final String TAG = "RadioButtonPlus";
+    private static final String TAG = RadioButtonPlus.class.getSimpleName();
 
     public RadioButtonPlus(Context paramContext) {
         super(paramContext);

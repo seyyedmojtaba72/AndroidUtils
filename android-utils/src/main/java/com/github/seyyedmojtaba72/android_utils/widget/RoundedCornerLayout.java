@@ -21,6 +21,8 @@ import com.github.seyyedmojtaba72.android_utils.R;
  * Created by SeyyedMojtaba on 8/17/2016.
  */
 public class RoundedCornerLayout extends RelativeLayout {
+    private static final String TAG = RoundedCornerLayout.class.getSimpleName();
+
     private static float CORNER_RADIUS = 40.0f;
 
     private Bitmap maskBitmap;
