@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Build;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 /**
@@ -17,12 +18,37 @@ public class NotificationUtils {
 
     private static final String TAG = NotificationUtils.class.getSimpleName();
 
-    public static Notification createNotification(Context context, int small_icon, int icon, String text, String title, String full_text, Intent intent, boolean autoCancel, long when, boolean hasSound, int sound, boolean hasVibrate, boolean hasLED, int LEDcolor, int LEDOnMS, int LEDOffMS) {
+
+    public static Notification createNotification(Context context, int small_icon, String title, String text) {
+        return createNotification(context, small_icon, title, text, null);
+
+    }
+
+    public static Notification createNotification(Context context, int small_icon, String title, String text, Intent intent) {
+        return createNotification(context, small_icon, -1, title, text, intent, true, -1, true, -1, true, false, -1, -1, -1);
+    }
+
+
+    public static Notification createNotification(Context context, int small_icon, int icon, String title, String text, Intent intent, boolean autoCancel, long when, boolean hasSound, int sound, boolean hasVibrate, boolean hasLED, int LEDColor, int LEDOnMS, int LEDOffMS) {
         if (context == null) {
             return null;
         }
 
-        Notification.Builder notificationBuilder = new Notification.Builder(context).setSmallIcon(small_icon).setLargeIcon(BitmapFactory.decodeResource(context.getResources(), icon)).setContentTitle(title).setContentText(text).setTicker(text).setAutoCancel(autoCancel).setWhen(when).setDefaults(0);
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context)
+                .setSmallIcon(small_icon);
+
+        if (icon != -1) {
+            notificationBuilder = notificationBuilder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), icon));
+        }
+        notificationBuilder = notificationBuilder
+                .setContentTitle(title)
+                .setContentText(text)
+                .setTicker(text)
+                .setAutoCancel(autoCancel);
+
+        if (when != -1) {
+            notificationBuilder = notificationBuilder.setWhen(when);
+        }
 
         if (intent != null) {
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -35,7 +61,7 @@ public class NotificationUtils {
         if (hasLED) {
             Log.d(TAG, "[createNotification] notification has led.");
 
-            notificationBuilder.setLights(LEDcolor, LEDOnMS, LEDOffMS);
+            notificationBuilder.setLights(LEDColor, LEDOnMS, LEDOffMS);
 
         }
 
@@ -49,7 +75,7 @@ public class NotificationUtils {
 
 
         if (hasSound) {
-            if (sound != 0) {
+            if (sound != -1) {
                 notification.defaults |= sound;
             } else {
                 notification.defaults |= Notification.DEFAULT_SOUND;
@@ -57,18 +83,6 @@ public class NotificationUtils {
         }
 
         if (hasVibrate) notification.defaults |= Notification.DEFAULT_VIBRATE;
-
-		/*
-         * if (hasLED) { Log.d(TAG,
-		 * "[createNotification] notification has led.");
-		 *
-		 * notification.ledARGB = LEDcolor; notification.ledOnMS = LEDOnMS;
-		 * notification.ledOffMS = LEDOffMS;
-		 *
-		 * notification.defaults |= Notification.FLAG_SHOW_LIGHTS;
-		 *
-		 * }
-		 */
 
         return notification;
     }
