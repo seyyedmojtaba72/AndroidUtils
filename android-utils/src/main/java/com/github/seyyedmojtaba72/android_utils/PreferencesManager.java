@@ -8,8 +8,8 @@ import android.preference.PreferenceManager;
  * Created by SeyyedMojtaba on 6/24/17.
  */
 
-public class PrefrencesManager {
-    private static final String TAG = PrefrencesManager.class.getSimpleName();
+public class PreferencesManager {
+    private static final String TAG = PreferencesManager.class.getSimpleName();
 
     public static boolean isFirstTime(Context context, String element) {
         Boolean bool = true;
