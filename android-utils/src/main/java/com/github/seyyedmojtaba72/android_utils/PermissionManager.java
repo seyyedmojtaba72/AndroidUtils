@@ -17,6 +17,18 @@ public class PermissionManager {
         return status == PackageManager.PERMISSION_GRANTED;
     }
 
+    public static boolean hasPermissions(Activity activity, String[] permissions) {
+        for(String permission : permissions) {
+            int status = ActivityCompat.checkSelfPermission(activity, permission);
+
+            if (status != PackageManager.PERMISSION_GRANTED){
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     /**
      * Checks if the app has permission to write to device storage
      * <p>

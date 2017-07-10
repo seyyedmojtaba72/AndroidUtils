@@ -228,6 +228,7 @@ public class ImageUtils {
             e.printStackTrace();
         }
         int orientation = exif.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+
         int rotate = 0;
         switch (orientation) {
             case ExifInterface.ORIENTATION_ROTATE_270:

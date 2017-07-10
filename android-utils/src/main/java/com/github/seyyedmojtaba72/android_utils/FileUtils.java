@@ -3,8 +3,6 @@ package com.github.seyyedmojtaba72.android_utils;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.net.Uri;
-import android.os.Build;
-import android.support.v4.content.FileProvider;
 import android.util.Log;
 
 import java.io.BufferedInputStream;
@@ -187,19 +185,6 @@ public class FileUtils {
 
     }
 
-    public static Uri getUriFromFile(Context context, String filePath) {
-
-        File file = new File(filePath);
-        Uri uri;
-        if (Build.VERSION.SDK_INT >= 24) {
-            uri = FileProvider.getUriForFile(context, context.getPackageName() + ".provider", file);
-        } else {
-            uri = Uri.fromFile(file);
-        }
-
-        return uri;
-
-    }
 
     public static boolean copyFile(InputStream in, OutputStream out) throws IOException {
         Log.d(TAG, "copying file from input stream to output steam...");
@@ -211,32 +196,7 @@ public class FileUtils {
         return true;
     }
 
-    public static void saveUriToFile(Uri mImageUri, String path) {
-        String sourceFilename = mImageUri.getPath();
-        String destinationFilename = path;
 
-        BufferedInputStream bis = null;
-        BufferedOutputStream bos = null;
-
-        try {
-            bis = new BufferedInputStream(new FileInputStream(sourceFilename));
-            bos = new BufferedOutputStream(new FileOutputStream(destinationFilename, false));
-            byte[] buf = new byte[1024];
-            bis.read(buf);
-            do {
-                bos.write(buf);
-            } while (bis.read(buf) != -1);
-        } catch (IOException e) {
-
-        } finally {
-            try {
-                if (bis != null) bis.close();
-                if (bos != null) bos.close();
-            } catch (IOException e) {
-
-            }
-        }
-    }
 
     public static void deleteDirectoryTree(File fileOrDirectory) {
         File[] arrayOfFile = null;

@@ -11,10 +11,16 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
+import android.support.v4.content.FileProvider;
 import android.util.Log;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 /**
  * Created by SeyyedMojtaba on 6/24/17.
@@ -198,6 +204,47 @@ public class UriManager {
         image.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
         String path = MediaStore.Images.Media.insertImage(context.getContentResolver(), image, "Title", null);
         return Uri.parse(path);
+    }
+
+    public static Uri getUriFromFile(Context context, String filePath) {
+
+        File file = new File(filePath);
+        Uri uri;
+        if (Build.VERSION.SDK_INT >= 24) {
+            uri = FileProvider.getUriForFile(context, context.getPackageName() + ".provider", file);
+        } else {
+            uri = Uri.fromFile(file);
+        }
+
+        return uri;
+
+    }
+
+    public static void saveUriToFile(Uri mImageUri, String path) {
+        String sourceFilename = mImageUri.getPath();
+        String destinationFilename = path;
+
+        BufferedInputStream bis = null;
+        BufferedOutputStream bos = null;
+
+        try {
+            bis = new BufferedInputStream(new FileInputStream(sourceFilename));
+            bos = new BufferedOutputStream(new FileOutputStream(destinationFilename, false));
+            byte[] buf = new byte[1024];
+            bis.read(buf);
+            do {
+                bos.write(buf);
+            } while (bis.read(buf) != -1);
+        } catch (IOException e) {
+
+        } finally {
+            try {
+                if (bis != null) bis.close();
+                if (bos != null) bos.close();
+            } catch (IOException e) {
+
+            }
+        }
     }
 
 }

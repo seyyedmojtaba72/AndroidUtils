@@ -10,9 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9540ebe1-8dc5-48cd-a741-b6767c79cdda" name="Default" comment="first commit">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PrefrencesManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PreferencesManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/build.gradle" afterPath="$PROJECT_DIR$/android-utils/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageUtils.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
     </list>
     <ignored path="DeveloparsUtils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,18 +59,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AutoFitHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/util/AutoFitHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="307" column="7" selection-start-line="307" selection-start-column="7" selection-end-line="307" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ResourceManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ResourceManager.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,8 +72,30 @@
       <file leaf-file-name="Intents.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+            <state relative-caret-position="660">
+              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="206" column="83" selection-start-line="206" selection-start-column="58" selection-end-line="206" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -87,28 +104,38 @@
       <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="2745">
+              <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoFitTextViewPlus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java">
+      <file leaf-file-name="UriManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
+            <state relative-caret-position="3405">
+              <caret line="247" column="5" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/build/generated/source/r/androidTest/debug/com/github/seyyedmojtaba72/android_utils/test/R.java">
+      <file leaf-file-name="PermissionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53400">
-              <caret line="3565" column="10" selection-start-line="3565" selection-start-column="10" selection-end-line="3565" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bintrayv1.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/bintrayv1.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -117,37 +144,17 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="120">
               <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attrs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/res/values/attrs.xml">
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextInputLayoutPlus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoFitLayout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitLayout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="285">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
@@ -166,6 +173,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="SeyyedMojtaba Akramzade &lt;akramzade72@gmail.com&gt;" />
         <option value="SeyyedMojtaba Akramazde &lt;akramzade72@gmail.com&gt;" />
       </list>
     </option>
@@ -1757,7 +1765,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8982228258000" />
+        <entry key="$PROJECT_DIR$" value="8983005547000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2160,8 +2168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Blur.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/EmojiMapUtil.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FontUtils.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/JSONParser.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PrefrencesManager.java" />
@@ -2169,12 +2175,9 @@
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ShamsiDate.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Network.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Notifications.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Files.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ResourcesManager.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Encryption.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/JSONManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/DeviceManager.java" />
@@ -2182,7 +2185,6 @@
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Fetcher.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Strings.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/TimeUtils.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/WidgetManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Functions.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/OtherUtils.java" />
@@ -2206,10 +2208,16 @@
         <option value="$PROJECT_DIR$/android-utils/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurAndDimView.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurActionBarDrawerToggle.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitLayout.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/util/AutoFitHelper.java" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageUtils.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java" />
         <option value="$PROJECT_DIR$/android-utils/build.gradle" />
       </list>
     </option>
@@ -2325,6 +2333,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2367,7 +2376,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2388,10 +2400,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2406,14 +2414,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="FullScreen" value="true" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -2822,7 +2830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496908301267</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="first commit">
+      <created>1498921057866</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1498921057866</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2874,6 +2889,43 @@
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35359803" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.48855507" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35359803" sideWeight="0.48569384" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25894135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -2924,39 +2976,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/DeviceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/EmojiMapUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Encryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Fetcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -2988,13 +3011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PreferencesManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -3020,20 +3036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -3097,7 +3099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3165,14 +3166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/bintrayv1.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3209,11 +3202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/util/AutoFitHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="4515">
           <caret line="307" column="7" selection-start-line="307" selection-start-column="7" selection-end-line="307" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3221,23 +3211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="32" column="115" selection-start-line="32" selection-start-column="115" selection-end-line="32" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3245,7 +3218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3253,7 +3225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53400">
           <caret line="3565" column="10" selection-start-line="3565" selection-start-column="10" selection-end-line="3565" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3261,7 +3232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="48" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3269,7 +3239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3289,9 +3258,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="247" column="5" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Intents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-26/android.jar!/android/media/ExifInterface.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/PermissionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="206" column="83" selection-start-line="206" selection-start-column="58" selection-end-line="206" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/bintrayv1.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="120">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>

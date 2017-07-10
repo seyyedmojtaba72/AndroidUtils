@@ -14,7 +14,6 @@ import java.io.File;
 import java.util.ArrayList;
 
 import static com.github.seyyedmojtaba72.android_utils.FileUtils.getFileExtention;
-import static com.github.seyyedmojtaba72.android_utils.FileUtils.getUriFromFile;
 
 /**
  * Created by SeyyedMojtaba on 6/24/17.
@@ -56,7 +55,7 @@ public class Intents {
 
 
     public static void openFileViaIntent(Context context, String intent_title, String filePath) {
-        Uri uri = getUriFromFile(context, filePath);
+        Uri uri = UriManager.getUriFromFile(context, filePath);
         Intent intent = new Intent(Intent.ACTION_VIEW);
         MimeTypeMap myMime = MimeTypeMap.getSingleton();
         String mimeType = myMime.getMimeTypeFromExtension(getFileExtention(filePath));
