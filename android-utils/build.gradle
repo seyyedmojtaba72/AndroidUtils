@@ -10,7 +10,7 @@ def _libraryDescription = "Some useful android utilities including widgets, snip
 def _siteUrl = 'https://github.com/seyyedmojtaba72/AndroidUtils'      // Homepage URL of the library
 def _gitUrl = 'https://github.com/seyyedmojtaba72/AndroidUtils.git'   // Git repository URL
 
-def _libraryVersion = "2.0.4"
+def _libraryVersion = "2.0.5"
 def _libraryVersionCode = 14
 
 def _developerId = "seyyedmojtaba72"
