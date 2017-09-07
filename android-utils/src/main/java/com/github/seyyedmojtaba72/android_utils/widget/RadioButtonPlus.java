@@ -29,10 +29,10 @@ public class RadioButtonPlus extends RadioButton {
 
     private void loadAttributes(Context context, AttributeSet paramAttributeSet) {
         TypedArray localTypedArray = context.obtainStyledAttributes(
-                paramAttributeSet, R.styleable.Custom_Widget_Attributes);
+                paramAttributeSet, R.styleable.Widgets);
         setFont(context,
                 localTypedArray
-                        .getString(R.styleable.Custom_Widget_Attributes_font));
+                        .getString(R.styleable.Widgets_sau_font));
         localTypedArray.recycle();
     }
 

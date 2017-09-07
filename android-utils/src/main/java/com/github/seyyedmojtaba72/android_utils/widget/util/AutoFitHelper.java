@@ -101,10 +101,10 @@ public class AutoFitHelper {
                     R.styleable.AutoFitTextViewPlus,
                     defStyle,
                     0);
-            sizeToFit = ta.getBoolean(R.styleable.AutoFitTextViewPlus_sizeToFit, sizeToFit);
-            minTextSize = ta.getDimensionPixelSize(R.styleable.AutoFitTextViewPlus_minTextSize,
+            sizeToFit = ta.getBoolean(R.styleable.AutoFitTextViewPlus_sau_sizeToFit, sizeToFit);
+            minTextSize = ta.getDimensionPixelSize(R.styleable.AutoFitTextViewPlus_sau_minTextSize,
                     minTextSize);
-            precision = ta.getFloat(R.styleable.AutoFitTextViewPlus_precision, precision);
+            precision = ta.getFloat(R.styleable.AutoFitTextViewPlus_sau_precision, precision);
             ta.recycle();
 
             helper.setMinTextSize(TypedValue.COMPLEX_UNIT_PX, minTextSize)

@@ -25,9 +25,9 @@ public class WrappedWebView extends WebView {
 
     private void loadAttributes(Context context, AttributeSet paramAttributeSet) {
         TypedArray localTypedArray = context.obtainStyledAttributes(
-                paramAttributeSet, R.styleable.Custom_Widget_Attributes);
+                paramAttributeSet, R.styleable.Widgets);
         setHTML(localTypedArray
-                .getString(R.styleable.Custom_Widget_Attributes_html));
+                .getString(R.styleable.Widgets_sau_html));
         localTypedArray.recycle();
     }
 

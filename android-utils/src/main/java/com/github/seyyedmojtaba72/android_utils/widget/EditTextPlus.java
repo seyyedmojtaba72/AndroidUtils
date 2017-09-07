@@ -31,8 +31,8 @@ public class EditTextPlus extends EditText {
     private void loadAttributes(Context context,
                                 AttributeSet paramAttributeSet) {
         TypedArray localTypedArray = context.obtainStyledAttributes(
-                paramAttributeSet, R.styleable.Custom_Widget_Attributes);
-        setFont(context, localTypedArray.getString(R.styleable.Custom_Widget_Attributes_font));
+                paramAttributeSet, R.styleable.Widgets);
+        setFont(context, localTypedArray.getString(R.styleable.Widgets_sau_font));
         localTypedArray.recycle();
     }
 

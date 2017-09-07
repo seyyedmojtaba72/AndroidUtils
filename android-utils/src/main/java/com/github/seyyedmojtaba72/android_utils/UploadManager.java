@@ -19,7 +19,7 @@ public class UploadManager {
 
     private static final String TAG = UploadManager.class.getSimpleName();
 
-    public static String uploadFile(String filePath, String urlAddress) {
+    public static String uploadFile(String filePath, String urlAddress) throws IllegalAccessException {
 
         Log.d(TAG, "[uploadFile] uploading " + filePath);
         StrictMode.ThreadPolicy.Builder localboolean1 = new StrictMode.ThreadPolicy.Builder();
@@ -28,8 +28,8 @@ public class UploadManager {
 
         File sourceFile = new File(filePath);
         if (!sourceFile.isFile()) {
-            Log.d(TAG, "[uploadFile] file not found");
-            return "file not found";
+            Log.e(TAG, "[uploadFile] file not found");
+            throw new IllegalAccessException("file not found");
         }
 
         String fileName = filePath;
@@ -57,7 +57,7 @@ public class UploadManager {
             conn.setRequestProperty("Connection", "Keep-Alive");
             conn.setRequestProperty("ENCTYPE", "multipart/form-data");
             conn.setRequestProperty("Content-Type", "multipart/form-data;boundary=" + boundary);
-            conn.setRequestProperty("file", fileName);
+            conn.setRequestProperty("uploaded_file", fileName);
 
             dos = new DataOutputStream(conn.getOutputStream());
 
@@ -112,17 +112,17 @@ public class UploadManager {
             dos.close();
 
             if (serverResponseCode != 200) {
-                return "fail";
+                Log.e(TAG, "[uploadFile] state is not OK");
+                throw new IllegalStateException("state is not OK");
             }
 
             Log.d(TAG, "[uploadFile] response = " + response);
-
             return response;
 
         } catch (Exception e) {
-            Log.d(TAG, "[uploadFile] " + e.getLocalizedMessage());
+            Log.e(TAG, "[uploadFile] " + e.getLocalizedMessage());
             e.printStackTrace();
-            return "fail";
+            return "";
         }
 
     }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="Custom_Widget_Attributes">
-        <attr name="text" format="string"/>
-        <attr name="font" format="string"/>
-        <attr name="html" format="string"/>
-        <attr name="radius" format="float"/>
-        <attr name="textSize" format="dimension"/>
-        <attr name="textColor" format="color"/>
-        <attr name="errorGravity">
+    <declare-styleable name="Widgets">
+        <attr name="sau_text" format="string" />
+        <attr name="sau_font" format="string" />
+        <attr name="sau_html" format="string" />
+        <attr name="sau_radius" format="float" />
+        <attr name="sau_textSize" format="dimension" />
+        <attr name="sau_textColor" format="color" />
+        <attr name="sau_errorGravity">
             <flag name="top" value="0x30"/>
             <flag name="bottom" value="0x50"/>
             <flag name="left" value="0x03"/>
@@ -23,11 +23,11 @@
 
     <declare-styleable name="AutoFitTextViewPlus">
         <!-- Minimum size of the text. -->
-        <attr name="minTextSize" format="dimension" />
+        <attr name="sau_minTextSize" format="dimension" />
         <!-- Amount of precision used to calculate the correct text size to fit within its
         bounds. Lower precision is more precise and takes more time. -->
-        <attr name="precision" format="float" />
+        <attr name="sau_precision" format="float" />
         <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
-        <attr name="sizeToFit" format="boolean" />
+        <attr name="sau_sizeToFit" format="boolean" />
     </declare-styleable>
 </resources>

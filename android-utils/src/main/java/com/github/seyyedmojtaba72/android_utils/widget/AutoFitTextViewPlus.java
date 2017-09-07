@@ -38,8 +38,8 @@ public class AutoFitTextViewPlus extends TextView implements AutoFitHelper.OnTex
     private void init(Context context, AttributeSet attrs, int defStyle) {
         mHelper = AutoFitHelper.create(this, attrs, defStyle)
                 .addOnTextSizeChangeListener(this);
-        TypedArray localTypedArray = context.obtainStyledAttributes(attrs, R.styleable.Custom_Widget_Attributes);
-        setFont(context, localTypedArray.getString(R.styleable.Custom_Widget_Attributes_font));
+        TypedArray localTypedArray = context.obtainStyledAttributes(attrs, R.styleable.Widgets);
+        setFont(context, localTypedArray.getString(R.styleable.Widgets_sau_font));
         localTypedArray.recycle();
     }
 

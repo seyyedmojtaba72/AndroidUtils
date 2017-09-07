@@ -33,10 +33,10 @@ public class JustifiedTextViewPlus extends WebView {
 
     private void loadAttributes(Context context, AttributeSet paramAttributeSet) {
         TypedArray localTypedArray = context.obtainStyledAttributes(
-                paramAttributeSet, R.styleable.Custom_Widget_Attributes);
-        textSize = OtherUtils.getDpFromPx(context, localTypedArray.getDimensionPixelSize(R.styleable.Custom_Widget_Attributes_textSize, 12));
-        text = localTypedArray.getString(R.styleable.Custom_Widget_Attributes_text);
-        int hex = localTypedArray.getColor(R.styleable.Custom_Widget_Attributes_textColor, Color.BLACK);
+                paramAttributeSet, R.styleable.Widgets);
+        textSize = OtherUtils.getDpFromPx(context, localTypedArray.getDimensionPixelSize(R.styleable.Widgets_sau_textSize, 12));
+        text = localTypedArray.getString(R.styleable.Widgets_sau_text);
+        int hex = localTypedArray.getColor(R.styleable.Widgets_sau_textColor, Color.BLACK);
         String h = Integer.toHexString(hex);
         int a = Integer.parseInt(h.substring(0, 2), 16);
         int r = Integer.parseInt(h.substring(2, 4), 16);

@@ -48,8 +48,8 @@ public class RoundedCornerLayout extends RelativeLayout {
     private void loadAttributes(Context context,
                                 AttributeSet paramAttributeSet) {
         TypedArray localTypedArray = context.obtainStyledAttributes(
-                paramAttributeSet, R.styleable.Custom_Widget_Attributes);
-        CORNER_RADIUS = localTypedArray.getFloat(R.styleable.Custom_Widget_Attributes_radius, 40f);
+                paramAttributeSet, R.styleable.Widgets);
+        CORNER_RADIUS = localTypedArray.getFloat(R.styleable.Widgets_sau_radius, 40f);
         localTypedArray.recycle();
     }
 
