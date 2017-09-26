@@ -9,60 +9,35 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list id="9540ebe1-8dc5-48cd-a741-b6767c79cdda" name="Default" comment="v2.0.9" />
     <list default="true" id="923ecbd4-a61e-452b-9a37-81e1ba2c82a0" name="Local" comment="Local">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_26_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_26_0_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_26_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_26_0_0_alpha1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/multidex_instrumentation_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/design_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_26_0_0_alpha1.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_26_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_26_0_1.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidUtils.iml" afterPath="$PROJECT_DIR$/AndroidUtils.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/android-utils.iml" afterPath="$PROJECT_DIR$/android-utils/android-utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/build.gradle" afterPath="$PROJECT_DIR$/android-utils/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/DeviceManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/DeviceManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Encryption.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Encryption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Fetcher.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Fetcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UploadManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitLayout.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/JustifiedTextViewPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/JustifiedTextViewPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RoundedCornerLayout.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RoundedCornerLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/WrappedWebView.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/WrappedWebView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/util/AutoFitHelper.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/util/AutoFitHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/android-utils/src/main/res/values/attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="DeveloparsUtils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +55,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -122,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -132,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="182">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -281,11 +256,6 @@
                 <option name="name" value="packageReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -361,6 +331,11 @@
                 <option name="name" value="packageReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseProguardFiles" />
               </ExternalTaskPojo>
@@ -371,11 +346,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadocJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -421,11 +391,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugAndroidTestBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -482,6 +447,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -545,11 +515,6 @@
                 <option name="name" value="javaPreCompileDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebugResources" />
               </ExternalTaskPojo>
@@ -581,11 +546,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -623,6 +583,11 @@
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -651,6 +616,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
@@ -694,6 +664,11 @@
                 <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Publishes artifacts to bintray.com." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="bintrayUpload" />
@@ -708,14 +683,9 @@
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:26.0.1" />
+                <option name="description" value="Prepare com.android.support:support-compat:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2601Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -827,6 +797,11 @@
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -917,18 +892,23 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:26.0.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2601Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:26.0.1" />
+                <option name="description" value="Prepare com.android.support:support-media-compat:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2601Library" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -941,6 +921,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -960,18 +945,13 @@
                 <option name="name" value="compileDebugAndroidTestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:26.0.1" />
+                <option name="description" value="Prepare com.android.support:transition:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2601Library" />
+                <option name="name" value="prepareComAndroidSupportTransition2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
@@ -1030,11 +1010,6 @@
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:transition:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportTransition2601Library" />
-              </ExternalTaskPojo>
             </list>
           </value>
         </entry>
@@ -1053,11 +1028,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="packageReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1130,6 +1100,11 @@
                 <option name="name" value="packageReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="mergeReleaseProguardFiles" />
               </ExternalTaskPojo>
@@ -1140,11 +1115,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="javadocJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportV42601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -1190,11 +1160,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="generateDebugAndroidTestBuildConfig" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1251,6 +1216,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1314,11 +1284,6 @@
                 <option name="name" value="javaPreCompileDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="packageDebugResources" />
               </ExternalTaskPojo>
@@ -1350,11 +1315,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72601Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1392,6 +1352,11 @@
                 <option name="name" value="incrementalDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="incrementalReleaseJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -1420,6 +1385,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="javaPreCompileRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
@@ -1463,6 +1433,11 @@
                 <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportDesign2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Publishes artifacts to bintray.com." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="bintrayUpload" />
@@ -1472,14 +1447,9 @@
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:26.0.1" />
+                <option name="description" value="Prepare com.android.support:support-compat:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2601Library" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1593,6 +1563,11 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportSupportV42600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="javaPreCompileDebug" />
               </ExternalTaskPojo>
@@ -1681,18 +1656,23 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:26.0.1" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2601Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:26.0.1" />
+                <option name="description" value="Prepare com.android.support:support-media-compat:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportDesign2601Library" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2600Alpha1Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1705,6 +1685,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:26.0.0-alpha1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
@@ -1724,18 +1709,13 @@
                 <option name="name" value="compileDebugAndroidTestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72601Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="mergeDebugAndroidTestShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:26.0.1" />
+                <option name="description" value="Prepare com.android.support:transition:26.0.0-alpha1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2601Library" />
+                <option name="name" value="prepareComAndroidSupportTransition2600Alpha1Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
@@ -1794,11 +1774,6 @@
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:transition:26.0.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android-utils" />
-                <option name="name" value="prepareComAndroidSupportTransition2601Library" />
-              </ExternalTaskPojo>
             </list>
           </value>
         </entry>
@@ -1806,7 +1781,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8992693663000" />
+        <entry key="$PROJECT_DIR$" value="8994322694000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2300,9 +2275,9 @@
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Fetcher.java" />
-        <option value="$PROJECT_DIR$/android-utils/build.gradle" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/Encryption.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/DeviceManager.java" />
+        <option value="$PROJECT_DIR$/android-utils/build.gradle" />
       </list>
     </option>
   </component>
@@ -2417,6 +2392,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -2444,27 +2440,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -2757,7 +2732,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9540ebe1-8dc5-48cd-a741-b6767c79cdda" name="Default" comment="" />
+      <changelist id="" name="Default" comment="" />
       <changelist id="923ecbd4-a61e-452b-9a37-81e1ba2c82a0" name="Local" comment="" />
       <created>1496564280991</created>
       <option name="number" value="Default" />
@@ -2918,7 +2893,28 @@
       <option name="project" value="LOCAL" />
       <updated>1499692272793</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Local">
+      <created>1504801526713</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1504801526713</updated>
+    </task>
+    <task id="LOCAL-00024" summary="v2.0.9">
+      <created>1506428217511</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1506428217511</updated>
+    </task>
+    <task id="LOCAL-00025" summary="v2.1">
+      <created>1506428329959</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1506428329959</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3047,7 +3043,10 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="first commit" />
     <MESSAGE value="UploadManager fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="UploadManager fixed." />
+    <MESSAGE value="Local" />
+    <MESSAGE value="v2.0.9" />
+    <MESSAGE value="v2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3334,7 +3333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3350,14 +3348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -3414,6 +3404,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>
