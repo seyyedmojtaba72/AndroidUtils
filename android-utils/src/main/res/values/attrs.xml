@@ -4,7 +4,7 @@
         <attr name="sau_text" format="string" />
         <attr name="sau_font" format="string" />
         <attr name="sau_html" format="string" />
-        <attr name="sau_radius" format="float" />
+        <attr name="sau_radius" format="dimension" />
         <attr name="sau_textSize" format="dimension" />
         <attr name="sau_textColor" format="color" />
         <attr name="sau_errorGravity">

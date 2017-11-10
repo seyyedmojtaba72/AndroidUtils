@@ -10,8 +10,8 @@ def _libraryDescription = "Some useful android utilities including widgets, snip
 def _siteUrl = 'https://github.com/seyyedmojtaba72/AndroidUtils'      // Homepage URL of the library
 def _gitUrl = 'https://github.com/seyyedmojtaba72/AndroidUtils.git'   // Git repository URL
 
-def _libraryVersion = "2.1.1"
-def _libraryVersionCode = 21
+def _libraryVersion = "2.1.4"
+def _libraryVersionCode = 24
 
 def _developerId = "seyyedmojtaba72"
 def _developerName = "SeyyedMojtaba Akramzade"
@@ -67,7 +67,7 @@ ext {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+//    buildToolsVersion "26.0.1"
 
     defaultConfig {
         minSdkVersion 14
