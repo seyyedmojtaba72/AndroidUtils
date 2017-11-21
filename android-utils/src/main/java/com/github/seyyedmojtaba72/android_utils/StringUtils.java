@@ -42,8 +42,12 @@ public class StringUtils {
     }
 
 
-    public static String normalPrice(String price, String splitter) {
+    public static String formatNumber(String price, String splitter) {
         String normaled = "";
+        if (price.substring(0, 1).equals("-")) {
+            normaled = "-";
+            price = price.replace("-", "");
+        }
         int j;
         for (int i = 0; i < price.length(); i++) {
             j = price.length() - i;
