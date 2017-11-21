@@ -65,11 +65,11 @@ public class PileLayout extends ViewGroup {
     public PileLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.pile);
-        interval = (int) a.getDimension(R.styleable.pile_interval, interval);
-        sizeRatio = a.getFloat(R.styleable.pile_sizeRatio, sizeRatio);
-        scaleStep = a.getFloat(R.styleable.pile_scaleStep, scaleStep);
-        displayCount = a.getFloat(R.styleable.pile_displayCount, displayCount);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.sau_pile);
+        interval = (int) a.getDimension(R.styleable.sau_pile_interval, interval);
+        sizeRatio = a.getFloat(R.styleable.sau_pile_sizeRatio, sizeRatio);
+        scaleStep = a.getFloat(R.styleable.sau_pile_scaleStep, scaleStep);
+        displayCount = a.getFloat(R.styleable.sau_pile_displayCount, displayCount);
         a.recycle();
 
         ViewConfiguration configuration = ViewConfiguration.get(getContext());
