@@ -11,7 +11,7 @@ import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
 
-public class CircularRevealAnimationFactory implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.IAnimationFactory {
+public class CircularRevealAnimationFactory implements IAnimationFactory {
 
     private static final String ALPHA = "alpha";
     private static final float INVISIBLE = 0f;
@@ -25,7 +25,7 @@ public class CircularRevealAnimationFactory implements com.telecooleh.artistick.
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
-    public void animateInView(View target, Point point, long duration, final AnimationStartListener listener) {
+    public void animateInView(View target, Point point, long duration, final IAnimationFactory.AnimationStartListener listener) {
         Animator animator = ViewAnimationUtils.createCircularReveal(target, point.x, point.y, 0,
                 target.getWidth() > target.getHeight() ? target.getWidth() : target.getHeight());
         animator.setDuration(duration).addListener(new Animator.AnimatorListener() {

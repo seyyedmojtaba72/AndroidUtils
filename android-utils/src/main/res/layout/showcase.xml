@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/content_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.github.seyyedmojtaba72.android_utils.widget.TextViewPlus
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/field"
+            app:sau_font="fonts/IRANSansBold.ttf" />
+
+        <com.github.seyyedmojtaba72.android_utils.widget.TextViewPlus
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/label"
+            app:sau_font="fonts/IRANSansLight.ttf" />
+
+        <com.github.seyyedmojtaba72.android_utils.widget.TextViewPlus
+            android:id="@+id/tv_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/custom_yellow"
+            android:textSize="@dimen/label"
+            android:visibility="gone"
+            app:sau_font="fonts/IRANSansBold.ttf" />
+
+    </LinearLayout>
+</LinearLayout>

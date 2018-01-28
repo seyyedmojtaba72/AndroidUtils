@@ -4,13 +4,13 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.*;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.Target;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.target.Target;
+
 
 /**
  * Circular shape for target.
  */
-public class CircleShape implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.Shape {
+public class CircleShape implements Shape {
 
     private int radius = 200;
     private boolean adjustToTarget = true;

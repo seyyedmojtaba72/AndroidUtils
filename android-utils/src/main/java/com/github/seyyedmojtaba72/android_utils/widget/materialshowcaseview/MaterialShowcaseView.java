@@ -27,13 +27,14 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.telecooleh.artistick.android.R;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.CircleShape;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.NoShape;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.RectangleShape;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.Shape;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.Target;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.ViewTarget;
+
+import com.github.seyyedmojtaba72.android_utils.R;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.shape.CircleShape;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.shape.NoShape;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.shape.RectangleShape;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.shape.Shape;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.target.Target;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.target.ViewTarget;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,7 +55,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
     private int mXPosition;
     private int mYPosition;
     private boolean mWasDismissed = false;
-    private int mShapePadding = com.telecooleh.artistick.android.util.widget.materialshowcaseview.ShowcaseConfig.DEFAULT_SHAPE_PADDING;
+    private int mShapePadding = ShowcaseConfig.DEFAULT_SHAPE_PADDING;
 
     private View mContentBox;
     private TextView mTitleTextView;
@@ -67,18 +68,18 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
     private boolean mShouldRender = false; // flag to decide when we should actually render
     private boolean mRenderOverNav = false;
     private int mMaskColour;
-    private com.telecooleh.artistick.android.util.widget.materialshowcaseview.IAnimationFactory mAnimationFactory;
+    private IAnimationFactory mAnimationFactory;
     private boolean mShouldAnimate = true;
     private boolean mUseFadeAnimation = false;
-    private long mFadeDurationInMillis = com.telecooleh.artistick.android.util.widget.materialshowcaseview.ShowcaseConfig.DEFAULT_FADE_TIME;
+    private long mFadeDurationInMillis = ShowcaseConfig.DEFAULT_FADE_TIME;
     private Handler mHandler;
-    private long mDelayInMillis = com.telecooleh.artistick.android.util.widget.materialshowcaseview.ShowcaseConfig.DEFAULT_DELAY;
+    private long mDelayInMillis = ShowcaseConfig.DEFAULT_DELAY;
     private int mBottomMargin = 0;
     private boolean mSingleUse = false; // should display only once
-    private com.telecooleh.artistick.android.util.widget.materialshowcaseview.PrefsManager mPrefsManager; // used to store state doe single use mode
-    List<com.telecooleh.artistick.android.util.widget.materialshowcaseview.IShowcaseListener> mListeners; // external listeners who want to observe when we show and dismiss
+    private PrefsManager mPrefsManager; // used to store state doe single use mode
+    List<IShowcaseListener> mListeners; // external listeners who want to observe when we show and dismiss
     private UpdateOnGlobalLayout mLayoutListener;
-    private com.telecooleh.artistick.android.util.widget.materialshowcaseview.IDetachedListener mDetachedListener;
+    private IDetachedListener mDetachedListener;
     private boolean mTargetTouchable = false;
     private boolean mDismissOnTargetTouch = true;
 
@@ -116,7 +117,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
         // consume touch events
         setOnTouchListener(this);
 
-        mMaskColour = Color.parseColor(com.telecooleh.artistick.android.util.widget.materialshowcaseview.ShowcaseConfig.DEFAULT_MASK_COLOUR);
+        mMaskColour = Color.parseColor(ShowcaseConfig.DEFAULT_MASK_COLOUR);
         setVisibility(INVISIBLE);
 
         View rootLayout = LayoutInflater.from(getContext()).inflate(R.layout.showcase, this, true);
@@ -222,7 +223,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
     private void notifyOnDisplayed() {
 
         if (mListeners != null) {
-            for (com.telecooleh.artistick.android.util.widget.materialshowcaseview.IShowcaseListener listener : mListeners) {
+            for (IShowcaseListener listener : mListeners) {
                 listener.onShowcaseDisplayed(this);
             }
         }
@@ -230,7 +231,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
 
     private void notifyOnDismissed() {
         if (mListeners != null) {
-            for (com.telecooleh.artistick.android.util.widget.materialshowcaseview.IShowcaseListener listener : mListeners) {
+            for (IShowcaseListener listener : mListeners) {
                 listener.onShowcaseDismissed(this);
             }
 
@@ -458,7 +459,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
         mUseFadeAnimation = useFadeAnimation;
     }
 
-    public void addShowcaseListener(com.telecooleh.artistick.android.util.widget.materialshowcaseview.IShowcaseListener showcaseListener) {
+    public void addShowcaseListener(IShowcaseListener showcaseListener) {
 
         if (mListeners != null)
             mListeners.add(showcaseListener);
@@ -471,7 +472,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
         }
     }
 
-    void setDetachedListener(com.telecooleh.artistick.android.util.widget.materialshowcaseview.IDetachedListener detachedListener) {
+    void setDetachedListener(IDetachedListener detachedListener) {
         mDetachedListener = detachedListener;
     }
 
@@ -479,7 +480,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
         this.mShape = mShape;
     }
 
-    public void setAnimationFactory(com.telecooleh.artistick.android.util.widget.materialshowcaseview.IAnimationFactory animationFactory) {
+    public void setAnimationFactory(IAnimationFactory animationFactory) {
         this.mAnimationFactory = animationFactory;
     }
 
@@ -753,7 +754,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
 
     private void singleUse(String showcaseID) {
         mSingleUse = true;
-        mPrefsManager = new com.telecooleh.artistick.android.util.widget.materialshowcaseview.PrefsManager(getContext(), showcaseID);
+        mPrefsManager = new PrefsManager(getContext(), showcaseID);
     }
 
     public void removeFromWindow() {
@@ -844,7 +845,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
         setVisibility(INVISIBLE);
 
         mAnimationFactory.animateInView(this, mTarget.getPoint(), mFadeDurationInMillis,
-                new com.telecooleh.artistick.android.util.widget.materialshowcaseview.IAnimationFactory.AnimationStartListener() {
+                new IAnimationFactory.AnimationStartListener() {
                     @Override
                     public void onAnimationStart() {
                         setVisibility(View.VISIBLE);
@@ -876,7 +877,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
      * @param showcaseID
      */
     public static void resetSingleUse(Context context, String showcaseID) {
-        com.telecooleh.artistick.android.util.widget.materialshowcaseview.PrefsManager.resetShowcase(context, showcaseID);
+        PrefsManager.resetShowcase(context, showcaseID);
     }
 
     /**

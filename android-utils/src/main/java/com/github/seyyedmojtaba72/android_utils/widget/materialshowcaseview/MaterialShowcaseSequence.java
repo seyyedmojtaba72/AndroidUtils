@@ -7,13 +7,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
-public class MaterialShowcaseSequence implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.IDetachedListener {
+public class MaterialShowcaseSequence implements IDetachedListener {
 
-    com.telecooleh.artistick.android.util.widget.materialshowcaseview.PrefsManager mPrefsManager;
-    Queue<com.telecooleh.artistick.android.util.widget.materialshowcaseview.MaterialShowcaseView> mShowcaseQueue;
+    PrefsManager mPrefsManager;
+    Queue<MaterialShowcaseView> mShowcaseQueue;
     private boolean mSingleUse = false;
     Activity mActivity;
-    private com.telecooleh.artistick.android.util.widget.materialshowcaseview.ShowcaseConfig mConfig;
+    private ShowcaseConfig mConfig;
     private int mSequencePosition = 0;
 
     private OnSequenceItemShownListener mOnItemShownListener = null;
@@ -36,7 +36,7 @@ public class MaterialShowcaseSequence implements com.telecooleh.artistick.androi
 
     public MaterialShowcaseSequence addSequenceItem(View targetView, String title, String content, String dismissText) {
 
-        MaterialShowcaseView sequenceItem = new com.telecooleh.artistick.android.util.widget.materialshowcaseview.MaterialShowcaseView.Builder(mActivity)
+        MaterialShowcaseView sequenceItem = new MaterialShowcaseView.Builder(mActivity)
                 .setTarget(targetView)
                 .setTitleText(title)
                 .setDismissText(dismissText)
@@ -51,14 +51,14 @@ public class MaterialShowcaseSequence implements com.telecooleh.artistick.androi
         return this;
     }
 
-    public MaterialShowcaseSequence addSequenceItem(com.telecooleh.artistick.android.util.widget.materialshowcaseview.MaterialShowcaseView sequenceItem) {
+    public MaterialShowcaseSequence addSequenceItem(MaterialShowcaseView sequenceItem) {
         mShowcaseQueue.add(sequenceItem);
         return this;
     }
 
     public MaterialShowcaseSequence singleUse(String sequenceID) {
         mSingleUse = true;
-        mPrefsManager = new com.telecooleh.artistick.android.util.widget.materialshowcaseview.PrefsManager(mActivity, sequenceID);
+        mPrefsManager = new PrefsManager(mActivity, sequenceID);
         return this;
     }
 
@@ -108,7 +108,7 @@ public class MaterialShowcaseSequence implements com.telecooleh.artistick.androi
     private void showNextItem() {
 
         if (mShowcaseQueue.size() > 0 && !mActivity.isFinishing()) {
-            com.telecooleh.artistick.android.util.widget.materialshowcaseview.MaterialShowcaseView sequenceItem = mShowcaseQueue.remove();
+            MaterialShowcaseView sequenceItem = mShowcaseQueue.remove();
             sequenceItem.setDetachedListener(this);
             sequenceItem.show(mActivity);
             if (mOnItemShownListener != null) {
@@ -126,7 +126,7 @@ public class MaterialShowcaseSequence implements com.telecooleh.artistick.androi
 
 
     @Override
-    public void onShowcaseDetached(com.telecooleh.artistick.android.util.widget.materialshowcaseview.MaterialShowcaseView showcaseView, boolean wasDismissed) {
+    public void onShowcaseDetached(MaterialShowcaseView showcaseView, boolean wasDismissed) {
 
         showcaseView.setDetachedListener(null);
 
@@ -156,7 +156,7 @@ public class MaterialShowcaseSequence implements com.telecooleh.artistick.androi
     }
 
     public interface OnSequenceItemShownListener {
-        void onShow(com.telecooleh.artistick.android.util.widget.materialshowcaseview.MaterialShowcaseView itemView, int position);
+        void onShow(MaterialShowcaseView itemView, int position);
     }
 
     public interface OnSequenceItemDismissedListener {

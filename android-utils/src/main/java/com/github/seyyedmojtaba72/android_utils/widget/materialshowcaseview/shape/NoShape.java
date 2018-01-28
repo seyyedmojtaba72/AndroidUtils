@@ -3,13 +3,13 @@ package com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.sha
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.*;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.Target;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.target.Target;
+
 
 /**
  * A Shape implementation that draws nothing.
  */
-public class NoShape implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.Shape {
+public class NoShape implements Shape {
 
     @Override
     public void updateTarget(Target target) {

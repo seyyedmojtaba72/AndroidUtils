@@ -5,10 +5,8 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.view.View;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.*;
 
-
-public class ViewTarget implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.Target {
+public class ViewTarget implements Target {
 
     private final View mView;
 

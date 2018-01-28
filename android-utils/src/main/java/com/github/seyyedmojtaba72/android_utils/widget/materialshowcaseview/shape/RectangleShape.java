@@ -5,10 +5,10 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.*;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.Target;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.target.Target;
 
-public class RectangleShape implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.Shape {
+
+public class RectangleShape implements Shape {
 
     private boolean fullWidth = false;
 

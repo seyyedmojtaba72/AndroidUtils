@@ -3,8 +3,8 @@ package com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview;
 import android.graphics.Color;
 import android.graphics.Typeface;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.CircleShape;
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.shape.Shape;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.shape.CircleShape;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.shape.Shape;
 
 
 public class ShowcaseConfig {

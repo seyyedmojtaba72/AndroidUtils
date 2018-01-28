@@ -8,10 +8,9 @@ import android.graphics.Point;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.*;
 
 
-public class FadeAnimationFactory implements com.telecooleh.artistick.android.util.widget.materialshowcaseview.IAnimationFactory {
+public class FadeAnimationFactory implements IAnimationFactory {
 
     private static final String ALPHA = "alpha";
     private static final float INVISIBLE = 0f;

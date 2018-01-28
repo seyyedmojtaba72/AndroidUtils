@@ -3,7 +3,8 @@ package com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.sha
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.telecooleh.artistick.android.util.widget.materialshowcaseview.target.Target;
+import com.github.seyyedmojtaba72.android_utils.widget.materialshowcaseview.target.Target;
+
 
 /**
  * Specifies a shape of the target (e.g circle, rectangle).
