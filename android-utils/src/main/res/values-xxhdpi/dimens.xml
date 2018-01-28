@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="h1">33sp</dimen>
+    <dimen name="h2">30sp</dimen>
+    <dimen name="h3">27sp</dimen>
+    <dimen name="h4">24sp</dimen>
+    <dimen name="h5">21sp</dimen>
+    <dimen name="h6">18sp</dimen>
+    <dimen name="p">15sp</dimen>
+    <dimen name="small">13sp</dimen>
+</resources>

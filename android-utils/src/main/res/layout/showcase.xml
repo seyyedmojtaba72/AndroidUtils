@@ -20,7 +20,7 @@
             android:gravity="center"
             android:paddingLeft="5dp"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/field"
+            android:textSize="@dimen/h5"
             app:sau_font="fonts/IRANSansBold.ttf" />
 
         <com.github.seyyedmojtaba72.android_utils.widget.TextViewPlus
@@ -30,7 +30,7 @@
             android:gravity="center"
             android:paddingLeft="5dp"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/label"
+            android:textSize="@dimen/p"
             app:sau_font="fonts/IRANSansLight.ttf" />
 
         <com.github.seyyedmojtaba72.android_utils.widget.TextViewPlus
@@ -45,8 +45,8 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:paddingTop="10dp"
-            android:textColor="@color/custom_yellow"
-            android:textSize="@dimen/label"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="@dimen/p"
             android:visibility="gone"
             app:sau_font="fonts/IRANSansBold.ttf" />
 
