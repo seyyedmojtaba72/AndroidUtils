@@ -8,6 +8,7 @@ import android.util.Log;
 import android.widget.EditText;
 
 import com.github.seyyedmojtaba72.android_utils.R;
+import com.github.seyyedmojtaba72.android_utils.WidgetManager;
 
 
 public class EditTextPlus extends EditText {
@@ -37,14 +38,16 @@ public class EditTextPlus extends EditText {
     }
 
     public boolean setFont(Context context, String font) {
+        if (font.isEmpty()){
+            return false;
+        }
         try {
             Typeface localTypeface = Typeface.createFromAsset(
                     context.getAssets(), font);
             setTypeface(localTypeface);
             return true;
         } catch (Exception localException) {
-            Log.e(TAG,
-                    "Could not get typeface: " + localException.getMessage());
+            Log.e(TAG, "Could not get typeface: " + localException.getMessage());
         }
         return false;
     }

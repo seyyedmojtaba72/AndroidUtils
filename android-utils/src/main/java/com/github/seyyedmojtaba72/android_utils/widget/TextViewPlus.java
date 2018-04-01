@@ -37,6 +37,9 @@ public class TextViewPlus extends TextView {
     }
 
     public boolean setFont(Context context, String font) {
+        if (font.isEmpty()) {
+            return false;
+        }
         try {
             Typeface localTypeface = Typeface.createFromAsset(
                     context.getAssets(), font);

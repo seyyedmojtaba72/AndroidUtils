@@ -24,6 +24,11 @@ public class WidgetManager {
         view.setTypeface(customFont);
     }
 
+    public static void setEditTextFont(Context context, String fontAddress, TextView view) {
+        Typeface customFont = Typeface.createFromAsset(context.getAssets(), fontAddress);
+        view.setTypeface(customFont);
+    }
+
     public static void JustifyTextView(TextView tv) {
         String html = String.valueOf(Html
                 .fromHtml("<![CDATA[<body style=\"text-align:justify; \">"
