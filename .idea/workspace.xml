@@ -10,10 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923ecbd4-a61e-452b-9a37-81e1ba2c82a0" name="Local" comment="v2.1.8">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload.command" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/build.gradle" afterPath="$PROJECT_DIR$/android-utils/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/WidgetManager.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/WidgetManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java" afterPath="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java" />
     </list>
     <ignored path="DeveloparsUtils.iws" />
@@ -54,43 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaterialShowcaseView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/MaterialShowcaseView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6825">
-              <caret line="510" column="20" lean-forward="false" selection-start-line="510" selection-start-column="20" selection-end-line="510" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bintrayv1.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/bintrayv1.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrefsManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/PrefsManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -108,28 +80,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalendarUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/CalendarUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaterialShowcaseSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/MaterialShowcaseSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="installv1.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/installv1.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,8 +93,8 @@
       <file leaf-file-name="EditTextPlus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="161">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -153,8 +103,58 @@
       <file leaf-file-name="TextViewPlus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+            <state relative-caret-position="339">
+              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadioButtonPlus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JustifiedTextViewPlus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/JustifiedTextViewPlus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonPlus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoFitTextViewPlus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextInputLayoutPlus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -187,6 +187,8 @@
       <find>bintrayUpload</find>
       <find>warn</find>
       <find>typec</find>
+      <find>setFont</find>
+      <find>setFo</find>
     </findStrings>
     <replaceStrings>
       <replace>time</replace>
@@ -2073,13 +2075,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/WrappedWebView.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurAndDimView.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/BlurActionBarDrawerToggle.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitLayout.java" />
-        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/util/AutoFitHelper.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/UriManager.java" />
@@ -2123,6 +2121,10 @@
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/WidgetManager.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java" />
         <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java" />
+        <option value="$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java" />
         <option value="$PROJECT_DIR$/android-utils/build.gradle" />
       </list>
     </option>
@@ -2229,6 +2231,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidUtils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_utils" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2343,33 +2412,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidUtils" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidUtils" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-utils" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2384,7 +2426,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2491,7 +2533,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522585344794" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522743808821" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2539,7 +2581,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522585344794" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522743808822" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2571,27 +2613,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2952,7 +2973,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517132548361</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="v2.1.8">
+      <created>1522585352412</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1522585352412</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2977,13 +3005,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27419356" sideWeight="0.5200286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.49427754" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27419356" sideWeight="0.47997138" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27419356" sideWeight="0.47997138" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25894135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25894135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -3098,36 +3126,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/SquareLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -3304,16 +3302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/MaterialShowcaseView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6825">
-          <caret line="510" column="20" lean-forward="false" selection-start-line="510" selection-start-column="20" selection-end-line="510" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/IAnimationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -3374,14 +3362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/MaterialShowcaseSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/android-release-aar.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-364">
@@ -3398,30 +3378,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/AnimateCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/CalendarUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3437,7 +3397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3445,41 +3404,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="377" column="0" lean-forward="true" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/MaterialShowcaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="510" column="20" lean-forward="false" selection-start-line="510" selection-start-column="20" selection-end-line="510" selection-end-column="20" />
           <folding>
-            <element signature="e#10280#10281#0" expanded="true" />
-            <element signature="e#10331#10332#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/JustifiedTextViewPlus.java">
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/materialshowcaseview/MaterialShowcaseSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="34" column="54" lean-forward="false" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        <state relative-caret-position="75">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/calendar/CalendarUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/AnimateCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextInputLayoutPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/EditTextPlus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="161">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/TextViewPlus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        <state relative-caret-position="339">
+          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/RadioButtonPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/JustifiedTextViewPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/ButtonPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-utils/src/main/java/com/github/seyyedmojtaba72/android_utils/widget/AutoFitTextViewPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-utils/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
         </state>
       </provider>

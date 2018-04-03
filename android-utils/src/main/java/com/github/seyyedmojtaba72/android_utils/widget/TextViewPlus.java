@@ -37,7 +37,7 @@ public class TextViewPlus extends TextView {
     }
 
     public boolean setFont(Context context, String font) {
-        if (font.isEmpty()) {
+        if (font == null || font.trim().isEmpty()) {
             return false;
         }
         try {

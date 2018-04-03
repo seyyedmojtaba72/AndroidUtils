@@ -51,10 +51,11 @@ public class TextInputLayoutPlus extends TextInputLayout {
 
 
     public boolean setFont(Context context, String font) {
-        this.font = font;
         if (font == null || font.trim().isEmpty()) {
             return false;
         }
+
+        this.font = font;
 
         Typeface typeface;
         try {

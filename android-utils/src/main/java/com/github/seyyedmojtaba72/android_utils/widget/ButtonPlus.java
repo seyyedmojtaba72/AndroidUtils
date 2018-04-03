@@ -38,6 +38,9 @@ public class ButtonPlus extends Button {
     }
 
     public boolean setFont(Context context, String font) {
+        if (font == null || font.trim().isEmpty()) {
+            return false;
+        }
         try {
             Typeface localTypeface = Typeface.createFromAsset(
                     context.getAssets(), font);

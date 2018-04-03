@@ -8,7 +8,6 @@ import android.util.Log;
 import android.widget.EditText;
 
 import com.github.seyyedmojtaba72.android_utils.R;
-import com.github.seyyedmojtaba72.android_utils.WidgetManager;
 
 
 public class EditTextPlus extends EditText {
@@ -38,7 +37,7 @@ public class EditTextPlus extends EditText {
     }
 
     public boolean setFont(Context context, String font) {
-        if (font.isEmpty()){
+        if (font == null || font.trim().isEmpty()) {
             return false;
         }
         try {

@@ -46,6 +46,9 @@ public class AutoFitTextViewPlus extends TextView implements AutoFitHelper.OnTex
     // Getters and Setters
 
     public boolean setFont(Context context, String font) {
+        if (font == null || font.trim().isEmpty()) {
+            return false;
+        }
         try {
             Typeface localTypeface = Typeface.createFromAsset(
                     context.getAssets(), font);
