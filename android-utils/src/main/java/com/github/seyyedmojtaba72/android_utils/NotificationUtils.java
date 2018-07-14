@@ -4,7 +4,6 @@ import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
@@ -36,7 +35,10 @@ public class NotificationUtils {
             return null;
         }
 
-        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context)
+        String channelId = "channel-01";
+        String channelName = "Channel Name";
+
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context, channelId)
                 .setSmallIcon(small_icon);
 
         if (icon != -1) {

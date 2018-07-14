@@ -47,7 +47,7 @@
             android:paddingTop="10dp"
             android:textColor="@android:color/holo_green_light"
             android:textSize="@dimen/h6"
-            android:visibility="go  ne"
+            android:visibility="gone"
             app:sau_font="fonts/IRANSansBold.ttf" />
 
     </LinearLayout>
