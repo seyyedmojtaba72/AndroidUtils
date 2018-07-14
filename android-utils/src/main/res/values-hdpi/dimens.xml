@@ -5,6 +5,4 @@
     <dimen name="h4">12sp</dimen>
     <dimen name="h5">10.5sp</dimen>
     <dimen name="h6">9sp</dimen>
-    <dimen name="p">7.5sp</dimen>
-    <dimen name="small">5sp</dimen>
 </resources>

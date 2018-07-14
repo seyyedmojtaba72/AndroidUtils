@@ -30,7 +30,7 @@
             android:gravity="center"
             android:paddingLeft="5dp"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/p"
+            android:textSize="@dimen/h6"
             app:sau_font="fonts/IRANSansLight.ttf" />
 
         <com.github.seyyedmojtaba72.android_utils.widget.TextViewPlus
@@ -46,8 +46,8 @@
             android:paddingRight="15dp"
             android:paddingTop="10dp"
             android:textColor="@android:color/holo_green_light"
-            android:textSize="@dimen/p"
-            android:visibility="gone"
+            android:textSize="@dimen/h6"
+            android:visibility="go  ne"
             app:sau_font="fonts/IRANSansBold.ttf" />
 
     </LinearLayout>
