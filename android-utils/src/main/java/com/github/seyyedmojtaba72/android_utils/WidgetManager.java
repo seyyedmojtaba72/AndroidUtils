@@ -9,6 +9,7 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextPaint;
 import android.text.style.MetricAffectingSpan;
+import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.util.LruCache;
 import android.widget.TextView;
@@ -20,11 +21,17 @@ public class WidgetManager {
     private static final String TAG = WidgetManager.class.getSimpleName();
 
     public static void setTextViewFont(Context context, String fontAddress, TextView view) {
+        if(fontAddress.isEmpty()){
+            return;
+        }
         Typeface customFont = Typeface.createFromAsset(context.getAssets(), fontAddress);
         view.setTypeface(customFont);
     }
 
     public static void setEditTextFont(Context context, String fontAddress, TextView view) {
+        if(fontAddress.isEmpty()){
+            return;
+        }
         Typeface customFont = Typeface.createFromAsset(context.getAssets(), fontAddress);
         view.setTypeface(customFont);
     }
@@ -49,7 +56,16 @@ public class WidgetManager {
 
     public static SpannableString textWithFont(Context context, String text, String font) {
         SpannableString s = new SpannableString(text);
-        s.setSpan(new TypefaceSpan(context, font), 0, s.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        if (font == null || font.trim().isEmpty()) {
+            return s;
+        }
+
+        try {
+            s.setSpan(new TypefaceSpan(context, font), 0, s.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
 
         return s;
     }

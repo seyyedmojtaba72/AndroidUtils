@@ -68,7 +68,7 @@ public class AnimateCounter {
             @Override
             public void onAnimationUpdate(ValueAnimator valueAnimator) {
                 float current = Float.valueOf(valueAnimator.getAnimatedValue().toString());
-                mView.setText(StringUtils.toPersianDigits(StringUtils.formatNumber(String.format("%." + mPrecision + "f", current), ",")));
+                mView.setText(StringUtils.toLanguageDigits(StringUtils.formatNumber(String.format("%." + mPrecision + "f", current), ",")));
             }
         });
 

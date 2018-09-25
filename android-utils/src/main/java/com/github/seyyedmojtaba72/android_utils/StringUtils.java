@@ -1,9 +1,11 @@
 package com.github.seyyedmojtaba72.android_utils;
 
+import android.content.Context;
 import android.util.Log;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Calendar;
+import java.util.Locale;
 
 /**
  * Created by SeyyedMojtaba on 6/24/17.
@@ -11,6 +13,13 @@ import java.util.Calendar;
 
 public class StringUtils {
     private static final String TAG = StringUtils.class.getSimpleName();
+
+    public static String toLanguageDigits(String string) {
+        if (Locale.getDefault().getLanguage().equals("fa")){
+            return toPersianDigits(string);
+        }
+        return toEnglishDigits(string);
+    }
 
     public static String toPersianDigits(String string) {
         return string.replaceAll("0", "۰").replaceAll("1", "۱").replaceAll("2", "۲").replaceAll("3", "۳").replaceAll("4", "۴").replaceAll("5", "۵").replaceAll("6", "۶").replaceAll("7", "۷").replaceAll("8", "۸").replaceAll("9", "۹");

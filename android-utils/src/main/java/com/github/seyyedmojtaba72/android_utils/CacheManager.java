@@ -6,8 +6,6 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.squareup.picasso.Picasso;
-
 import java.io.File;
 
 import static com.github.seyyedmojtaba72.android_utils.Fetcher.getURLLastModified;
@@ -23,7 +21,7 @@ import static com.github.seyyedmojtaba72.android_utils.Network.isOnline;
 public class CacheManager {
     private static final String TAG = CacheManager.class.getSimpleName();
 
-    public static void loadCachedImage(final Activity activity, final ImageView imageView, final String urlAddress, final String filePath) {
+   /* public static void loadCachedImage(final Activity activity, final ImageView imageView, final String urlAddress, final String filePath) {
 
         Log.d(TAG, "[loadCachedImage] loading cache image");
 
@@ -56,7 +54,7 @@ public class CacheManager {
 
                                 @Override
                                 public void onPostExecute(boolean result) {
-                                    Picasso.with(activity).load(file).noFade().skipMemoryCache().into(imageView);
+                                    Picasso.get().load(file).noFade().memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).into(imageView);
                                 }
                             });
 
@@ -66,7 +64,7 @@ public class CacheManager {
                             activity.runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    Picasso.with(activity).load(file).noFade().skipMemoryCache().into(imageView);
+                                    Picasso.get().load(file).noFade().memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).into(imageView);
                                 }
                             });
                         }
@@ -89,7 +87,7 @@ public class CacheManager {
                     @Override
                     public void onPostExecute(boolean result) {
                         if (result) {
-                            Picasso.with(activity).load(file).noFade().skipMemoryCache().into(imageView);
+                            Picasso.get().load(file).noFade().memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).into(imageView);
                         }
                     }
                 });
@@ -98,14 +96,14 @@ public class CacheManager {
             }
         } else {
             Log.d(TAG, "[loadCachedImage] phone is offline. loading from sdcard...");
-            Picasso.with(activity).load(file).noFade().skipMemoryCache().into(imageView);
+            Picasso.get().load(file).noFade().memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE).into(imageView);
 
         }
 
 
         Log.d(TAG, "[loadCachedImage] loading completed.");
     }
-
+*/
     public static void clearCache(Context context) {
         deleteDirectoryTree(context.getCacheDir());
     }
